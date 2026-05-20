@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1000&auto=format&fit=crop",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Beach Hat",
+    "brand": "CoolWear",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 8,
+    "description": "Comfortable beach hat for sunny days.",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1000&auto=format&fit=crop",
+    "category": "Fashion"
+  },
+  {
+    "id": 3,
+    "name": "Summer T-Shirt",
+    "brand": "EasyFit",
+    "price": 20,
+    "rating": 4.8,
+    "stock": 15,
+    "description": "Soft cotton t-shirt for summer comfort.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop",
+    "category": "Clothing"
+  },
+  {
+    "id": 4,
+    "name": "Sunscreen Lotion",
+    "brand": "SkinCare",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 20,
+    "description": "Protect your skin from harmful UV rays.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1000&auto=format&fit=crop",
+    "category": "Skincare"
+  },
+  {
+    "id": 5,
+    "name": "Flip Flops",
+    "brand": "WalkEasy",
+    "price": 10,
+    "rating": 4.4,
+    "stock": 12,
+    "description": "Lightweight flip flops for beach walks.",
+    "image": "https://images.unsplash.com/photo-1608256246200-53e8b47b2f80?q=80&w=1000&auto=format&fit=crop",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Water Bottle",
+    "brand": "HydroMax",
+    "price": 9,
+    "rating": 4.9,
+    "stock": 25,
+    "description": "Stay hydrated during hot summer days.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=1000&auto=format&fit=crop",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 7,
+    "name": "Beach Shorts",
+    "brand": "WaveStyle",
+    "price": 22,
+    "rating": 4.7,
+    "stock": 14,
+    "description": "Comfortable and lightweight beach shorts for summer fun.",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1000&auto=format&fit=crop",
+    "category": "Clothing"
+  },
+  {
+    "id": 8,
+    "name": "Portable Mini Fan",
+    "brand": "CoolBreeze",
+    "price": 16,
+    "rating": 4.8,
+    "stock": 18,
+    "description": "Rechargeable portable fan to keep you cool anywhere.",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1000&auto=format&fit=crop",
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "name": "Swimming Goggles",
+    "brand": "AquaVision",
+    "price": 14,
+    "rating": 4.5,
+    "stock": 10,
+    "description": "Anti-fog swimming goggles for clear underwater vision.",
+    "image": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?q=80&w=1000&auto=format&fit=crop",
+    "category": "Sports"
+  },
+  {
+    "id": 10,
+    "name": "Summer Backpack",
+    "brand": "TravelMate",
+    "price": 28,
+    "rating": 4.9,
+    "stock": 9,
+    "description": "Spacious backpack perfect for beach trips and travel.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1000&auto=format&fit=crop",
+    "category": "Accessories"
+  },
+  {
+    "id": 11,
+    "name": "Aloe Vera Gel",
+    "brand": "NatureGlow",
+    "price": 11,
+    "rating": 4.6,
+    "stock": 17,
+    "description": "Refreshing aloe vera gel for cooling and moisturizing skin.",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?q=80&w=1000&auto=format&fit=crop",
+    "category": "Skincare"
+  },
+  {
+    "id": 12,
+    "name": "Picnic Mat",
+    "brand": "SunnyDay",
+    "price": 19,
+    "rating": 4.7,
+    "stock": 11,
+    "description": "Foldable waterproof picnic mat for outdoor activities.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop",
+    "category": "Lifestyle"
+  }
+]
