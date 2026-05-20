@@ -1,37 +1,41 @@
-import React from "react";
-import heroImg from "../assets/hero3.png";
+import React from 'react';
+import heroImg from '../assets/hero3.png';
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden">
 
-      <img
-        src={heroImg.src}
-        alt="hero"
-        className="absolute inset-0 h-full w-full object-cover"
-      />
 
-      <div className="absolute inset-0 bg-black/20"></div>
+     <img
+  src={heroImg.src}
+  alt="hero"
+  className="absolute inset-0 w-full h-full object-cover object-right"
+/>
 
-      <div className="relative z-10 flex h-full items-center px-10 md:px-20">
+      
+      <div className="absolute inset-0 bg-black/40"></div>
 
-        <div className="max-w-2xl text-white text-left">
+    
+      <div className="absolute inset-0 flex items-center px-5 sm:px-10 md:px-20">
 
-          <h1 className="mb-5 text-5xl md:text-6xl font-bold leading-tight">
+        <div className="text-white max-w-lg text-left">
+
+          <h1 className="mb-3 text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Summer Sale <br /> 50% OFF
           </h1>
 
-          <p className="mb-6 text-lg">
+          <p className="mb-5 text-sm sm:text-base md:text-lg">
             Discover trendy summer essentials for your perfect vacation.
           </p>
 
-          <button className="btn btn-warning text-white">
+          <button className="btn btn-warning btn-sm sm:btn-md text-white">
             Shop Now
           </button>
 
         </div>
 
       </div>
+
     </div>
   );
 };
