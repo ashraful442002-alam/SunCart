@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div className="text-white max-w-lg text-left">
 
-          <h1 className="mb-3 text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+         <h1 className="mb-5 text-5xl font-bold animate__animated animate__animated animate__fadeInDown">
             Summer Sale <br /> 50% OFF
           </h1>
 
@@ -28,7 +28,7 @@ const Hero = () => {
             Discover trendy summer essentials for your perfect vacation.
           </p>
 
-          <button className="btn btn-warning btn-sm sm:btn-md text-white">
+          <button className="btn btn-warning text-white animate__animated animate__pulse animate__infinite">
             Shop Now
           </button>
 

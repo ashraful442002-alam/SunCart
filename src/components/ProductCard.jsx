@@ -12,14 +12,16 @@ const ProductCard = ({ product }) => {
   } = product;
 
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl animate__animated animate__zoomIn">
 
       <figure className="p-5">
+
         <img
           src={image}
           alt={name}
           className="h-60 w-full object-cover rounded-xl"
         />
+
       </figure>
 
       <div className="card-body">
@@ -29,8 +31,11 @@ const ProductCard = ({ product }) => {
         </h2>
 
         <p className="flex items-center gap-2">
+
           <FaStar className="text-yellow-500" />
+
           {rating}
+
         </p>
 
         <p className="font-semibold text-lg text-orange-500">
@@ -49,6 +54,7 @@ const ProductCard = ({ product }) => {
         </div>
 
       </div>
+
     </div>
   );
 };

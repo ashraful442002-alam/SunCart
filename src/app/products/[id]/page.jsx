@@ -1,27 +1,35 @@
+"use client";
+
+import React, { use, useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 import products from "@/data/products.json";
 import { isLoggedIn } from "@/lib/auth";
-import { useReducer } from "next/navigation";
-import { useEffect } from "react";
 
 const ProductDetailsPage = ({ params }) => {
 
-    const router = useReducer();
-    useEffect(()=>{
-        if(!isLoggedIn()){
-            router.push("/login");
-        }
-    },[]
+  const router = useRouter();
 
-    )
+  const resolvedParams = use(params);
+
+  useEffect(() => {
+
+    if (!isLoggedIn()) {
+      router.push("/login");
+    }
+
+  }, [router]);
 
   const product = products.find(
-    (item) => item.id == params.id
+    (item) => item.id == resolvedParams.id
   );
 
   if (!product) {
     return (
       <div className="text-center py-20">
-        <h1 className="text-3xl font-bold">Product Not Found</h1>
+        <h1 className="text-3xl font-bold">
+          Product Not Found
+        </h1>
       </div>
     );
   }
@@ -53,9 +61,13 @@ const ProductDetailsPage = ({ params }) => {
             Brand: {product.brand}
           </p>
 
-          <p>Rating: ⭐ {product.rating}</p>
+          <p>
+            Rating: ⭐ {product.rating}
+          </p>
 
-          <p>Stock: {product.stock}</p>
+          <p>
+            Stock: {product.stock}
+          </p>
 
           <p className="text-2xl font-bold text-orange-500">
             ${product.price}

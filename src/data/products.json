@@ -43,17 +43,17 @@
     "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1000&auto=format&fit=crop",
     "category": "Skincare"
   },
-  {
-    "id": 5,
-    "name": "Flip Flops",
-    "brand": "WalkEasy",
-    "price": 10,
-    "rating": 4.4,
-    "stock": 12,
-    "description": "Lightweight flip flops for beach walks.",
-    "image": "https://images.unsplash.com/photo-1608256246200-53e8b47b2f80?q=80&w=1000&auto=format&fit=crop",
-    "category": "Footwear"
-  },
+{
+  "id": 5,
+  "name": "Flip Flops",
+  "brand": "WalkEasy",
+  "price": 10,
+  "rating": 4.4,
+  "stock": 12,
+  "description": "Lightweight flip flops for beach walks.",
+  "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?q=80&w=1000&auto=format&fit=crop",
+  "category": "Footwear"
+},
   {
     "id": 6,
     "name": "Water Bottle",

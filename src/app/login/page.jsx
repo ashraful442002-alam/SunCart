@@ -12,34 +12,33 @@ const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = (e) => {
+const handleLogin = (e) => {
 
-    e.preventDefault();
+  e.preventDefault();
 
-    const registeredUser =
-      JSON.parse(localStorage.getItem("registeredUser"));
+  const registeredUser =
+    JSON.parse(localStorage.getItem("registeredUser"));
 
-    if (
-      registeredUser?.email === email &&
-      registeredUser?.password === password
-    ) {
+  if (
+    registeredUser?.email === email &&
+    registeredUser?.password === password
+  ) {
 
-      localStorage.setItem(
-        "user",
-        JSON.stringify(registeredUser)
-      );
+    localStorage.setItem(
+      "user",
+      JSON.stringify(registeredUser)
+    );
 
-      toast.success("Login Successful");
+    toast.success("Login Successful");
 
-      router.push("/");
+    window.location.href = "/";
 
-    } else {
+  } else {
 
-      toast.error("Invalid Email or Password");
+    toast.error("Invalid Email or Password");
 
-    }
-  };
-
+  }
+};
   return (
     <div className="flex justify-center items-center min-h-screen px-5">
 
