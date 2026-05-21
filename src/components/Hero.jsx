@@ -3,13 +3,13 @@ import heroImg from '../assets/hero3.png';
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden">
+   <div className="relative w-full h-[70vh] overflow-hidden z-0">
 
 
      <img
   src={heroImg.src}
   alt="hero"
-  className="absolute inset-0 w-full h-full object-cover object-right"
+  className="absolute inset-0 w-full h-full object-cover object-right -z-10"
 />
 
       

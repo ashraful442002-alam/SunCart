@@ -3,7 +3,13 @@ import { FaStar } from "react-icons/fa";
 
 const ProductCard = ({ product }) => {
 
-  const {id,name,image,price,rating,} = product;
+  const {
+    id,
+    name,
+    image,
+    price,
+    rating,
+  } = product;
 
   return (
     <div className="card bg-base-100 shadow-xl">
